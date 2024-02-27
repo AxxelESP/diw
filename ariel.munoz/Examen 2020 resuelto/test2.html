@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title> Ejer 2 - Validación Formulario </title>
+		<style type="text/css">
+			input {
+				border-radius: 50px;
+				font-size: 17px;
+				margin-bottom: 10px;
+				text-align: center;
+			}
+			body {
+				font-size: 20px;
+			}
+		</style>
+		<!-- /////////////////////////// -->
+		<script type="text/javascript">
+
+            
+		</script>
+	</head>
+	
+	<body>
+		<center>
+			<form name="f">
+				Matrícula: <input type="text" name="txtMatri" size="12" style="margin-left: 38px; margin-top: 20px;" onkeyup="validarMatricula()" placeholder="5675-tgh"> <br>
+				Teléfono: <input type="text" name="txtPhone" size="12" style="margin-left: 44px;" onkeyup="validarTelefono()" 	placeholder="89-567-76-43"> <div id="divTelf"></div> <br>
+				Código Postal: <input type="text" name="txtCP" size="12" onkeyup="validarCP()" placeholder="45678"> <br>
+				Nombre: <input type="text" name="txtName" size="12" style="margin-left: 48px;" onkeyup="validarNombre()" placeholder="Juan Perez"> <br>
+				URL: <input type="text" name="txtURL" size="12" style="margin-left: 74px;" onkeyup="validarURL()"
+					placeholder="https://google.es"> <br> <br>
+				<input type="button" value="Añadir" name="botonAnadir" style="width: 110px;" disabled="disabled" 			onclick="valida()"> <br> <br>
+				<textarea name="miTextArea" cols="70" rows="10"> </textarea>
+			</form>
+		</center>
+	</body>
+</html>
+
+<!-- / Validar formulario (con las funciones de evento proporcionadas) e insertar en documento los datos correctamente validados/ -->

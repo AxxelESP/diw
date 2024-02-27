@@ -1,0 +1,30 @@
+.imagen{
+	position: absolute; top:0; left:0;
+	height: 400px;
+	width: 400px;
+	border: 1px solid black;
+	border-radius: 5px;	
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 100%;
+}
+.cuadrante{
+	height: 200px;
+	width: 200px;	
+	position: absolute;	
+	z-index: 10;
+	/*border: 1px solid black;*/
+}
+.uno{
+	top:0; left:0;
+}
+.dos{
+	top:0; left:200px;
+}
+.tres{
+	top:200px; left:0;
+}
+.cuatro{
+	top:200px; left:200px;
+}

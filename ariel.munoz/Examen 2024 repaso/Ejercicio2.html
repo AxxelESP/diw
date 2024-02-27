@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ejercicio 2</title>
+	<link rel="stylesheet" href="css/ejercicio2.css">
+	<script src="lib/jquery-3.4.1.js"></script>	
+	<script src="js/ejercicio2.js"></script>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<!-- Realizar una pagina que contenga varias capas. Cada vez que se pulse en una capa se cambiará si posición de forma 
+		aleatoria (x e y), contabilizando el numero de clicks que se ha dado.
+
+		NOTA: Para generar un numero aleatorio entre 0 y un valor máximo se utilizaran las siguientes funciones:
+		Math.floor(Math.random()*(maximo));
+
+		Utilizar el atributo data de HTML5 //metodo data de JQUERY -->
+		<style>
+			fieldset{
+				width: 400px;
+				height: 200px;
+				left: 60%;
+				top:30%;
+				position: absolute;
+			}
+			div{
+				text-align: center;
+			}
+			.crear{
+				width: 100px;
+				height: 60px;
+				left: 30%;
+				position: absolute;
+			}
+		</style>
+</head>
+<body>
+	<div class="cuadro">0</div>
+	<div class="cuadro">0</div>
+	<div class="cuadro">0</div>
+	<input type="button" class="crear" value="crear">
+</body>
+</html>

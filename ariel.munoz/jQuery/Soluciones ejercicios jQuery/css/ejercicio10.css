@@ -1,0 +1,12 @@
+.tip{
+	display: none;
+	padding: 5px;
+	border-radius: 5px;	
+	border: 1px solid black;
+	background: orange;
+	color: white;
+	position: absolute; top:0; left:0;
+}
+span{
+	color: red;
+}

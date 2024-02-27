@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script src="lib/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var nparrafos=$("p").length;			
+			if (nparrafos>0){
+				alert("En el documento hay algún párrafo");
+			}
+			//El siguiente if va a ser siempre TRUE
+			if ($("#asignaturas")){
+				alert("Hay un id llamado asignaturas");
+			}
+		});
+	</script>
+</head>
+<body>
+	<h1 class="titulo">Desarrollo de Aplicaciones Web</h1>
+	<p>Esto es un párrafo</p>
+	<p>Esto es un párrafo</p>
+	<p>Esto es un párrafo</p>
+	<ul id="asignaturas">
+		<li>Diseño de Interfaces Web</li>
+		<li>Desarrollo Entorno Cliente</li>
+		<li>Desarrollo Entorno Servidor</li>
+	</ul>
+</body>
+</html>

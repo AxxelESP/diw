@@ -1,0 +1,26 @@
+.cuadro{
+	width: 30px; height: 30px;
+	border: 1px solid white;
+	border-radius: 2px;
+	margin: 5px;
+	float: left;	
+}
+#blue{
+	background-color: blue;
+}
+#green{
+	background-color: green;
+}
+#yellow{
+	background-color: yellow;
+}
+#brown{
+	background-color: brown;
+}
+.ayuda{
+	display:none;	
+	position:absolute; 
+	border: 1px solid black;
+	padding: 5px;
+	background-color: white;
+}

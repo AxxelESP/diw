@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ejemplo 2</title>
+	<link rel="stylesheet" href="">
+	<script src="lib/jquery-3.4.1.min.js"></script>
+	<script>
+	//Guardar selecciones
+		$(document).ready(function(){
+			var numero_capas=$("div").length;
+			var $capas=$("div");
+			console.log($capas.length);
+			console.log($("div").length);
+			console.log(numero_capas.length);
+		});
+	</script>
+</head>
+<body>
+	<div>UNO</div>
+	<div>DOS</div>
+	<div>TRES</div>
+</body>
+</html>

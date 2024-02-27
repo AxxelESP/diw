@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2: Manipulación del DOM Avanzada</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var contador = 3;
+            $("#agregarElemento").click(function (){
+                $("<li>Elemento "+(++contador)+"</li>").appendTo("#miLista")
+            });
+        });
+    </script>
+</head>
+<body>
+    <ul id="miLista">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+    <button id="agregarElemento">Agregar Elemento</button>
+</body>
+</html>

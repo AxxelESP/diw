@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ejercicio 1</title>
+	<script src="lib/jquery-3.4.1.js"></script>
+	<script src="js/ejercicio1.js"></script>
+	<script src="lib/plugin.js"></script>
+	<link rel="stylesheet" href="bootstrap-4.4.1/bootstrap.css">
+	<link rel="stylesheet" href="css/ejercicio1.css">
+	<script>
+	//Realizar un extension (plugin) que permita gestionar elementos en una lista desordenada.
+		//A) Cada elemento de la lista tambi'en contendra varios botones que realizaran las siguientes acciones:
+		// -> subir, bajar, duplicar y borrar
+		// 1- subir: moverá el elemento una posicion hacia arriba
+		// 2- bajar: movera el elemento una posicion hacia abajo
+		// 3- Duplicar: copiara el elemento en la posicion inmediatamente a la siguiente
+		// 4- Borrar: borrara el elemento seleccionado
+		//B) Mostrar el numero de elementos de la lista en un alert
+
+		// Aplicar diferentes clases bootstrap Para que el ejercicio tenga el aspecto indicado en los comentarios.
+		//</script>
+</head>
+<body>
+
+	<div class="container">
+		<!--Color fondo primario (fila)-->
+		<div class="row bg-primary">
+			<!--h1 tipo display-3 con padding 3-->
+			<h1 class="display-3 p-3">Ejercicio 1</h1>
+		</div>
+	<!--Margen superior 3 (fila) -->
+	<div class="row mt-3"><h1 class="col-3">Listado</h1><button class="contar col-1">Contar</button>	
+	<ul class="listado col-12">
+		<!--Los botones tendrán color de fondo primario, secundario, info y danger respectivamente-->
+		<li>Registro 1 
+			<button class="subir btn btn-primary">Subir</button>
+			<button class="bajar btn btn-secondary">Bajar</button>
+			<button class="duplicar btn btn-info">Duplicar</button>
+			<button class="borrar btn btn-danger">Borrar</button>
+		</li>
+		<li>Registro 2
+			 <button class="subir btn btn-primary">Subir</button>
+			 <button class="bajar btn btn-secondary">Bajar</button>
+			<button class="duplicar btn btn-info">Duplicar</button>
+			<button class="borrar btn btn-danger">Borrar</button>
+		</li>
+		<li>Registro 3 
+			<button class="subir btn btn-primary">Subir</button>
+			<button class="bajar btn btn-secondary">Bajar</button>
+			<button class="duplicar btn btn-info">Duplicar</button>
+			<button class="borrar btn btn-danger">Borrar</button>
+		</li>
+	</ul>
+	</div>	
+	</div>
+</body>
+</html>

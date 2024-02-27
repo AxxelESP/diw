@@ -1,0 +1,24 @@
+$(document).ready(function(){
+	$(".aficiones").on("click","li",function(){
+		$(this).toggleClass("destacado");
+	})
+	$(".ok").on("click",function(){
+		var aficion=$(".aficion").val();
+		$("<li>"+aficion+"</li>").appendTo(".aficiones");
+	})
+	$("li").hover(
+		function(){
+			$(this).append($("<span>***</span>"));
+		},
+		function(){
+			$(this).find("span:last").remove();
+		});
+	/*$("li").on({
+		"mouseenter":function(){
+			$(this).append($("<span>***</span>"));	
+		},
+		"mouseleave":function(){
+			$(this).find("span:last").remove();
+		}
+	});*/	
+});
